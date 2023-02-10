@@ -36,3 +36,9 @@ Thanks!
 
 BPI Team
 
+## Tips:
+
+  1. Please remove other versions of the wiringPi first.
+  2. As for Armbian system, you need to update board.sh script file:
+     * **BPI-M3**: `echo "BOARD=bpi-m3" > /var/lib/bananapi/board.sh`
+     * **BPI-M2+**: `echo "BOARD=bpi-m2p" > /var/lib/bananapi/board.sh`
